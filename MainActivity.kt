@@ -3,11 +3,9 @@ package com.example.deyer.finalcolorpicker
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Spinner
-import android.view.View
 import android.widget.*
 
 import kotlinx.android.synthetic.main.activity_main.*
@@ -47,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         gButton.text = "255"
         bButton.text = "255"
 
-        // Seekbar action and set background of surfaceView
+        // Seek bar action and set background of surfaceView
         colorR.max = 255
         colorR.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onStopTrackingTouch(seekBar: SeekBar) {}
@@ -159,7 +157,7 @@ class MainActivity : AppCompatActivity() {
 
                 println(list.size.toString().get(0))
 
-                //colorSurfaceView.setBackgroundColor(Color.parseColor(list.size.toString()))
+                colorSurfaceView.setBackgroundColor(Color.parseColor(list.size.toString()))
 
 
                 true
