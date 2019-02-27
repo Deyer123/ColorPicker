@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">finalColorPicker</string>
+    <string name="colorR">colorR</string>
+    <string name="colorG">colorG</string>
+    <string name="colorB">colorB</string>
+    <string name="apply">Apply</string>
+    <string name="r">r</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="Recall">Recall</string>
+    <string name="save">Save</string>
+
+
+        <string-array name="savedList">
+            <item>Saved 1</item>
+            <item>Saved 2</item>
+            <item>Saved 3</item>
+
+        </string-array>
+</resources>

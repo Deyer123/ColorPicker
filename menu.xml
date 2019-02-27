@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+            android:id="@+id/Save"
+            android:orderInCategory="300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:showAsAction="ifRoom"
+            android:title="@string/save"/>
+    <item
+        android:id="@+id/Recall"
+        android:orderInCategory="301"
+        android:title="@string/Recall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="ifRoom"/>
+
+</menu>
